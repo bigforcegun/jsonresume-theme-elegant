@@ -165,4 +165,4 @@ function getFloatingNavItems(resume) {
     });
 }
 
-module.exports = { render };
+module.exports = { render, pdfRenderOptions: {mediaType: "print"} };
