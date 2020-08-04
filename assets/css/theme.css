@@ -330,7 +330,6 @@
   font-family: 'jst-elegant' !important;
 }
 body {
-  font-family: 'Lato';
   background: #f0f0f0;
   color: #333;
 }
@@ -987,7 +986,13 @@ body {
   .floating-nav-trigger {
     display: none;
   }
+  .detail {
+    page-break-inside: avoid;
+  }
   .pagebreak {
     page-break-before: always;
+  }
+  .pagebreak-avoid {
+    page-break-inside: avoid;
   }
 }

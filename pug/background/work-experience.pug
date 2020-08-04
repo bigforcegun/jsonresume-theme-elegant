@@ -38,6 +38,7 @@ unless _.isEmpty(resume.work)
               .mop-wrapper.space-bottom!= experience.summary
 
               unless _.isEmpty(experience.highlights)
+                strong Highlights
                 ul
                   each highlight in experience.highlights
                     li.mop-wrapper!= highlight
